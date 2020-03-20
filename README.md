@@ -25,7 +25,7 @@ Return the code for GAMS to load these parameters just written to GDX file, for 
 ## Format 1: Prefixing
 Name all the parameters need to be written to GDX file as follow:
 ```
-prefix_dimmension_nameInGDX
+prefix_dimension_nameInGDX
 ```
 ### Example：
 ```
@@ -37,7 +37,7 @@ prefix_dimmension_nameInGDX
 ## Format 2: Structuring
 Put every parameter need to be written to GDX file into a structure, with each element named as follow:
 ```
-nameInGDX_dimmension
+nameInGDX_dimension
 ```
 ### Example：
 ```
